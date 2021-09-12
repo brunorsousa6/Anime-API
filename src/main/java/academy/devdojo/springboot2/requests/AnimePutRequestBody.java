@@ -8,5 +8,4 @@ import lombok.Data;
 public class AnimePutRequestBody {
     private Long id;
     private String name;
-
 }

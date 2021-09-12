@@ -1,6 +1,5 @@
 package academy.devdojo.springboot2.exception;
 
-import lombok.Builder;
 import lombok.Data;
 import lombok.experimental.SuperBuilder;
 
@@ -8,7 +7,7 @@ import java.time.LocalDateTime;
 
 @Data
 @SuperBuilder
-public class ExceptionDetails{
+public class ExceptionDetails {
     protected String title;
     protected int status;
     protected String details;

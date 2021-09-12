@@ -6,21 +6,21 @@ public class AnimeCreator {
 
     public static Anime createAnimeToBeSaved(){
         return Anime.builder()
-                .name("Shingeki no Kyojin")
+                .name("Hajime no Ippo")
                 .build();
     }
 
     public static Anime createValidAnime(){
         return Anime.builder()
-                .name("Shingeki no Kyojin")
+                .name("Hajime no Ippo")
                 .id(1L)
                 .build();
     }
 
-    public static Anime createValidUpdateAnime(){
+    public static Anime createValidUpdatedAnime(){
         return Anime.builder()
-                .name("Shingeki no Kyojin")
-                .id(2L)
+                .name("Hajime no Ippo 2")
+                .id(1L)
                 .build();
     }
 }
