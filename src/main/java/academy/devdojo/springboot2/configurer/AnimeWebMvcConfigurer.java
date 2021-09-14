@@ -1,4 +1,4 @@
-package academy.devdojo.springboot2.config;
+package academy.devdojo.springboot2.configurer;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.domain.PageRequest;

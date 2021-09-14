@@ -25,9 +25,9 @@ import java.util.List;
 
 @ExtendWith(SpringExtension.class)
 class AnimeControllerTest {
-    @InjectMocks
+    @InjectMocks  //criar uma instancia e injeta as dependências necessárias que estão anotadas com @Mock
     private AnimeController animeController;
-    @Mock
+    @Mock //cria uma instancia de uma classe, porém Mockada. Se você chamar um metodo ele não irá chamar o metodo real, a não ser que você queira
     private AnimeService animeServiceMock;
 
     @BeforeEach
